@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+yarn.lock
+.idea
+coverage
+node_modules
+public/assets
+webpack-assets.json
+webpack-stats.json
+public/pdf/*.html
+public/svgToHtml/*
+
