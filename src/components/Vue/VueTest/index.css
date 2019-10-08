@@ -1,0 +1,35 @@
+#div02 {
+    margin: 10px auto;
+}
+
+/* 图片 */
+#image {
+    width: 300px;
+    height: 500px;
+    background-image: url('../../../../../../图片/111.jdp');
+    margin: 10px 0;
+}
+
+#image.child {
+    background-image: url('../../../../../../图片/333.jdp');
+}
+
+/* 进度条 */
+#bar {
+    width: 300px;
+    height: 30px;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+
+#bar div {
+    width: 300px;
+    height: 30px;
+    background-color: brown;
+}
+
+/* 按钮 */
+#button {
+    width: 300px;
+    margin: 10px 0;
+}

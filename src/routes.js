@@ -32,6 +32,5 @@ export default [
     exact: true,
     component: SelfAssessment
   },
-
 ];
 

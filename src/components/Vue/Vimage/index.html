@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="div01">
+        <h1 id="h1">v-image 图片</h1>
+        <div class="image" v-bind:class="{child: ended}">
+        </div>
+        <div id='Bar'>
+            <div v-bind:style='{width: widths + "%"}'></div>
+        </div>
+        <div id='click'>
+            <button v-on:click="restart">重新开始</button>
+            <button v-on:click="punch" v-show='!ended'>使劲敲</button>
+        </div>
+    </div>
+    <script src="vue.js">
+    </script>
+</body>
+</html>
